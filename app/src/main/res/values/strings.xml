@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Test</string>
+    <string name="please_enter_your_last_name">please enter your last name</string>
+    <string name="please_enter_your_first_name">please enter your first name</string>
+    <string name="please_enter_your_age">please enter your age</string>
+    <string name="please_enter_your_email">please enter your email</string>
+    <string name="ok">OK</string>
+    <string name="cancel">cancel</string>
+    <string name="approve">approve</string>
+</resources>

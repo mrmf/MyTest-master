@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="First quarter"
+    android:textSize="20dp"
+    android:lastBaselineToBottomHeight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textColor="#ff0000"
+    android:textColorHint="#ff0000"
+    />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/holo_red_dark"
+    />
+
+
+<android.support.v7.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="JAN"
+        android:layout_gravity="center_horizontal"
+        android:padding="15dp"
+        android:gravity="center"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:maxHeight="?android:attr/listPreferredItemHeight"
+        android:maxWidth="?android:attr/listPreferredItemHeight"
+        android:scaleType="centerCrop"
+        android:src="@drawable/p1" />
+</android.support.v7.widget.LinearLayoutCompat>
+<android.support.v7.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="FEB"
+        android:layout_gravity="center_horizontal"
+        android:padding="15dp"
+        android:gravity="center"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:maxHeight="?android:attr/listPreferredItemHeight"
+        android:maxWidth="?android:attr/listPreferredItemHeight"
+        android:scaleType="centerCrop"
+        android:src="@drawable/p1" />
+</android.support.v7.widget.LinearLayoutCompat>
+<android.support.v7.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="MAR"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:gravity="center"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:maxHeight="?android:attr/listPreferredItemHeight"
+        android:maxWidth="?android:attr/listPreferredItemHeight"
+        android:scaleType="centerCrop"
+        android:src="@drawable/p1" />
+</android.support.v7.widget.LinearLayoutCompat>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Second quarter"
+    android:textSize="20dp"
+    android:lastBaselineToBottomHeight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textColor="#ff0000"
+    android:textColorHint="#ff0000"
+    />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/holo_red_dark"
+    />
+<android.support.v7.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="APR"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:gravity="center"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:maxHeight="?android:attr/listPreferredItemHeight"
+        android:maxWidth="?android:attr/listPreferredItemHeight"
+        android:scaleType="centerCrop"
+        android:src="@drawable/p2" />
+</android.support.v7.widget.LinearLayoutCompat>
+<android.support.v7.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="MAY"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:gravity="center"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:maxHeight="?android:attr/listPreferredItemHeight"
+        android:maxWidth="?android:attr/listPreferredItemHeight"
+        android:scaleType="centerCrop"
+        android:src="@drawable/p2" />
+</android.support.v7.widget.LinearLayoutCompat>
+
+
+</android.support.v7.widget.LinearLayoutCompat>
