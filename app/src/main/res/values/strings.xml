@@ -7,4 +7,10 @@
     <string name="ok">OK</string>
     <string name="cancel">cancel</string>
     <string name="approve">approve</string>
+    <string name="sobh">اذان صبح :</string>
+    <string name="tolo">طلوع آفتاب :</string>
+    <string name="zohr">اذان ظهر :</string>
+    <string name="asr">وقت عصر :</string>
+    <string name="maghrib">اذان مغرب :</string>
+    <string name="isha">وقت عشا :</string>
 </resources>

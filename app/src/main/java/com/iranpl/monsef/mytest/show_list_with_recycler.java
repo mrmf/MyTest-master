@@ -1,5 +1,6 @@
 package com.iranpl.monsef.mytest;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
@@ -8,6 +9,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -51,7 +53,15 @@ public class show_list_with_recycler extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                drawerLayout.openDrawer(navigationView);
+            drawerLayout.openDrawer(navigationView);
+            }
+        });
+        TextView textView = findViewById(R.id.link1);
+        textView.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(show_list_with_recycler.this, HTTP_Test_Activity.class);
+                startActivity(intent);
             }
         });
 
