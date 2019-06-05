@@ -13,4 +13,10 @@
     <string name="asr">وقت عصر :</string>
     <string name="maghrib">اذان مغرب :</string>
     <string name="isha">وقت عشا :</string>
+    <string name="please_enter_your_title">Enter your title</string>
+    <string name="please_enter_your_text">Enter yout text</string>
+    <string name="add">add note</string>
+    <string name="edit">edit</string>
+    <string name="returnl">Return to Notes List</string>
+    <string name="Delete">Delete note</string>
 </resources>
